@@ -1,0 +1,14 @@
+.p-1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 300px;
+}
+.p-2{
+  width: 300px;
+  text-align: center;
+  font-size: 23px;
+}
+.p-21:hover{
+  text-decoration: underline;
+}

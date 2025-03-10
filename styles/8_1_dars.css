@@ -1,0 +1,47 @@
+.email-name{
+  width: 100px;
+  display: block;
+  color: gray;
+  border: solid;
+  border-radius: 3px;
+  border-width: 0.5px;
+  margin-bottom: 4px;
+}
+.email-email{
+  width: 100px;
+  display: block;
+  color: gray;
+  border: solid;
+  border-radius: 3px;
+  border-width: 0.5px;
+}
+.customer-1{
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.customer-button-1,
+.customer-button-2{
+  display: inline-block;
+  vertical-align: middle;
+}
+.customer-button-1:hover,
+.customer-button-2:hover{
+  cursor: pointer;
+}
+.google-img{
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin-left: 100px;
+}
+.google-search{
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
