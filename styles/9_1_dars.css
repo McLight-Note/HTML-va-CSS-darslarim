@@ -55,3 +55,147 @@
   font-size: 8px;
   margin-left: 5px;
 }
+.tweet-space{
+  height: 30px;
+  width: 200px;
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-width: 0.3px;
+  border-color: rgb(183, 181, 181);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+.tweet-space-img{
+  height: 20px;
+  width: 20px;
+  border-radius: 12.5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.tweet-space-q{
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  vertical-align: middle;
+  border: none;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+.tweet-space-button{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  font-size: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  cursor: pointer;
+}
+.person-page{
+  width: 60px;
+  height: 100px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.person-page-img{
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+.person-page-name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  display: block;
+}
+.person-page-stat{
+  margin-top: 0;
+  color: rgb(196, 196, 196);
+  font-size: 5px;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2px;
+  display: block;
+}
+.person-page-button{
+  background-color: rgb(43, 134, 252);
+  color: white;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: block;
+  margin-left: 5px;
+  border: none;
+  border-radius: 2px;
+  font-size: 5px;
+  cursor: pointer;
+}
+.google-search{
+  margin-top: 30px;
+  display: block;
+  width: 300px;
+}
+.google-simg1{
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  display: block;
+  margin-left: 90px;
+}
+.google-simg{
+  height: 70px;
+  object-fit: contain;
+}
+.google-sinp1{
+  text-align: center;
+  display: block;
+}
+
+.google-sinp{
+  padding-left: 10px;
+  padding-right: 70px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 0 10px rgb(183, 181, 181);
+  border-radius: 12.5px;
+  height: 25px;
+  margin-top: 10px;
+  width: 190px;
+}
+.google-button-12,
+.google-button-22{
+  background-color: rgb(213, 213, 213);
+  border: none;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.google-button-2,
+.google-button-1{
+  display: inline-block;
+  margin-top: 15px;
+}
+.google-button-1{
+  margin-left: 60px;
+}
