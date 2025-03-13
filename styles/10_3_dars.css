@@ -1,0 +1,80 @@
+p{
+  margin: 0;
+}
+.person-page{
+  width: 60px;
+  height: 110px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.person-page-img{
+  width: 60px;
+  height: 60px;
+  display: block;
+  padding: 0;
+}
+.person-page-name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  font-weight: bold;
+  display: inline-block;
+}
+.person-page-stat{
+  color: rgb(196, 196, 196);
+  font-size: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2px;
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+}
+.person-page-button{
+  background-color: rgb(43, 134, 252);
+  color: white;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  font-size: 5px;
+  cursor: pointer;
+}
+.profile-picture{
+  display: inline-block;
+  height: 55px;
+  vertical-align: top;
+}
+.profile-info{
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0;
+}
+.profile-img{
+  display: inline-block;
+}
+.profile-stat{
+  display: inline-block;
+  width: 50px;
+}
+.profile-button{
+  display: inline-block;
+}
+.stat-picture{
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.stat-picture-div, .stat-div2{
+  display: inline-block;
+}
