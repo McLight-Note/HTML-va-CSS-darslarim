@@ -1,0 +1,54 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.title{
+  font-size: 25px;
+  font-weight: 650;
+  display: flex;
+}
+.add{
+  font-size: 20px;
+  font-weight: 550;
+  display: flex;
+}
+.info, .time{
+  font-size: 15px;
+  color: rgb(130, 130, 130);
+  display: flex;
+}
+.info-row{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.img-row{
+  display: flex;
+}
+.info-img-row{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.person-1{
+  display: flex;
+  justify-content: space-between;
+}
+.top-type{
+  font-size: 20px;
+  color: rgb(130, 130, 130);
+  margin: 10px;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  padding: 10px;
+  gap: 20px;
+}

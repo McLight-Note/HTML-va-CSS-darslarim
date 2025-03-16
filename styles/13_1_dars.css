@@ -1,0 +1,29 @@
+.flex-1{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.item1{
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+.flex-set-1{
+  background-color: lightblue;
+  height: 40px;
+  display: flex;
+  flex: 1;
+  max-width: 400px;
+}
+.flex-set-2{
+  background-color: lightcoral;
+  height: 40px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.row2{
+  background-color: black;
+  color: white;
+}

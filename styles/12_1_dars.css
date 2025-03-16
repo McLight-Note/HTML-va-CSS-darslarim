@@ -1,0 +1,28 @@
+.flex-1{
+  display: flex;
+  flex: 1;
+}
+.flex-2{
+  display: flex;
+  flex: 1;
+  margin-top: 30px;
+}
+.flex-3{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.flex-4{
+  display: flex;
+  flex: 1;
+  margin-top: 30px;
+  border: solid;
+  border-color: grey;
+  border-width: 0.3px;
+  height: 70px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
