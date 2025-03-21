@@ -1,5 +1,6 @@
 .thumbnail {
   width: 100%;
+  cursor: pointer;
 }
 .video-title {
   margin-top: 0;
@@ -7,6 +8,9 @@
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 .video-info-grid {
   display: grid;
@@ -15,6 +19,7 @@
 .profile-picture {
   width: 36px;
   border-radius: 50px;
+  cursor: pointer;
 }
 .thumbnail-row {
   margin-bottom: 8px;
@@ -34,15 +39,67 @@
   column-gap: 16px;
   row-gap: 40px;
 }
+
+@media (max-width: 750px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .video-time{
   background-color: black;
   color: white;
   position: absolute;
   bottom: 10px;
   right: 8px;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 500;
   padding: 4px;
-  border-radius: 2px;
+  border-radius: 2px; 
+}
+.profile-picture-container{
+  position: relative;
+}
+.video-authon-in{
+  font-weight: bold;
+}
+.tooltip-2{
+  position: absolute;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.profile-picture-in{
+  width: 46px;
+  border-radius: 60px;
+  margin-left: 10px;
+}
+.right-in{
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+}
+.profile-picture-container:hover .tooltip-2{
+  opacity: 1;
 }
